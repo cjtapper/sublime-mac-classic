@@ -24,7 +24,7 @@
 				<key>invisibles</key>
 				<string>#BFBFBF</string>
 				<key>lineHighlight</key>
-				<string>#ededed</string>
+				<string>#00000012</string>
 				<key>selection</key>
 				<string>#4D97FF54</string>
 				<key>gutter</key>
@@ -80,7 +80,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#C5060B</string>
+				<string>#585CF6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -132,7 +132,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#26B31A</string>
+				<string>#585CF6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -181,8 +181,6 @@
 			<string>entity.name.type</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>underline</string>
 			</dict>
 		</dict>
 		<dict>
@@ -192,8 +190,6 @@
 			<string>entity.other.inherited-class</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
 			</dict>
 		</dict>
 		<dict>
@@ -203,8 +199,6 @@
 			<string>variable.parameter</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
 			</dict>
 		</dict>
 		<dict>
@@ -227,8 +221,6 @@
 			<string>meta.section entity.name.section, declaration.section entity.name.section</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
 			</dict>
 		</dict>
 		<dict>
@@ -373,8 +365,6 @@
 			<string>string.quoted.docinfo.doctype.DTD</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
 			</dict>
 		</dict>
 		<dict>
@@ -408,8 +398,6 @@
 			<string>entity.other.attribute-name</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
 			</dict>
 		</dict>
 		<dict>
@@ -432,8 +420,6 @@
 			<string>markup.quote</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
 				<key>foreground</key>
 				<string>#000000</string>
 			</dict>
@@ -447,61 +433,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#B90690</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Include name</string>
-			<key>scope</key>
-			<string>source.c meta.preprocessor.c.include string.quoted.other.lt-gt.include.c</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#C8151A</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Include end bracket</string>
-			<key>scope</key>
-			<string>source.c meta.preprocessor.c.include string.quoted.other.lt-gt.include.c punctuation.definition.string.end.c</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#C8151A</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Include start bracket</string>
-			<key>scope</key>
-			<string>source.c meta.preprocessor.c.include string.quoted.other.lt-gt.include.c punctuation.definition.string.begin.c</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#C8151A</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Macro name</string>
-			<key>scope</key>
-			<string>source.c meta.preprocessor.macro.c keyword.control.import.define.c</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#C8151A</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Macro definition</string>
-			<key>scope</key>
-			<string>source.c meta.preprocessor.macro.c constant.numeric.c</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#B82727</string>
 			</dict>
 		</dict>
 	</array>
